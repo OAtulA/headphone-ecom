@@ -1,9 +1,11 @@
 import React from 'react';
 import { RiArrowDownSLine, RiFunctionLine } from 'react-icons/ri';
+import ScrollRevealWrapper from './ScrollRevealWrapper';
 
 const Header: React.FC = () => {
   return (
-    <header className="header" id="header">
+    <ScrollRevealWrapper direction="top" delay={0.6}>
+    <header className="header home__header" id="header">
       <nav className="nav container">
         <a href="/" className="nav__logo">
           <img src="img/logo_.png" alt="logo" />
@@ -34,6 +36,7 @@ const Header: React.FC = () => {
         </div>
       </nav>
     </header>
+    </ScrollRevealWrapper>
   );
 };
 
