@@ -19,6 +19,7 @@ const HomePage: React.FC = () => {
   }, []);
   return (
     <main className="main">
+      <title>Home</title>
       <Header />
       <HomeSection />
       <SponsorSection />
