@@ -8,10 +8,10 @@ import {
   RiPlugLine,
   RiMicFill,
 } from "react-icons/ri";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 import home_helper from "./home_helper";
-import ScrollRevealWrapper from "../components/ScrollRevealWrapper";
+import ScrollRevealWrapper from "../../components/ScrollRevealWrapper";
 
 const HomePage: React.FC = () => {
   useEffect(() => {

@@ -201,8 +201,9 @@ img {
   color: var(--white-color);
   font-size: var(--h2-font-size);
   text-transform: uppercase;
-  font-weight: var(--font-semi-bold);
-  background: var(--text-gradient);
+  font-weight: var(--font-semi-bold); 
+  /* gradient-text is from the index.css */
+  background: var(--gradient-text); 
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
